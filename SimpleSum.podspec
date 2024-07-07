@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SimpleSum"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Super simple library for summing two numbers."
 
   spec.description  = <<-DESC
@@ -49,10 +49,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  spec.platform     = :ios
-  spec.platform     = :ios, "12.0"
-
-
+  spec.platform     = :ios, "14.0"
+  
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.source       = { :git => "https://github.com/sinha-sahil/SimpleSum.git", :tag => "#{spec.version}" }
